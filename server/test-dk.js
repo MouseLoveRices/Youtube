@@ -36,7 +36,7 @@ import { assert } from 'chai';
     it('should signup with Google if user does not exist', async () => {
       // Viết test cho trường hợp đăng ký mới bằng Google với user chưa tồn tại
     });
-
+      done();
     // Thêm các bài kiểm tra khác ở đây
   });
 
