@@ -6,8 +6,12 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index.js",
+<<<<<<< HEAD
     "test": "mocha test.js",
     "user-test":"mocha user-test.js"
+=======
+    "test": " mocha test.js"
+>>>>>>> 40b74f49ff8a4e5b76fdcd867c2a8a0b7db337dd
   },
   "keywords": [],
   "author": "",
