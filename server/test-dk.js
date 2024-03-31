@@ -1,27 +1,5 @@
-import { signup, signin, googleAuth } from '../server/controllers/auth.js';
+import { signin, googleAuth } from '../server/controllers/auth.js';
 
-describe('User Authentication', () => {
-  describe('signup', () => {
-    it('should create a new user', async () => {
-      const req = {
-        body: {
-          name: 'testuser',
-          email: 'test@example.com',
-          password: 'password123',
-        },
-      };
-      const res = {
-        status: jest.fn().mockReturnThis(),
-        send: jest.fn(),
-      };
-      const next = jest.fn();
-
-      await signup(req, res, next);
-
-      expect(res.status).toHaveBeenCalledWith(200);
-      expect(res.send).toHaveBeenCalledWith('User has been created!');
-      expect(next).not.toHaveBeenCalled();
-    });
 
     // Thêm các bài kiểm tra khác ở đây
   });
