@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "mocha test.js",
-    "user-test":"mocha user-test.js"
+    "test": "mocha test.js & mocha user-test.js"
 
   },
   "keywords": [],
