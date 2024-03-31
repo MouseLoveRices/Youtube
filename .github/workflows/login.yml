@@ -1,5 +1,5 @@
 
-name: login
+name: googleAuth CI
 
 on:
   push:
