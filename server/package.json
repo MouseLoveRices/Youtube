@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "test": "mocha test.js ",
-    "user-test":"mocha user-test.js
+    "user-test":"mocha user-test.js"
 
   },
   "keywords": [],
