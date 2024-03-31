@@ -6,13 +6,10 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index.js",
-<<<<<<< HEAD
 
-    "test": "mocha test.js && mocha test-dk.js",
-    "user-test":"mocha user-test.js"
-=======
-    "test": "mocha test.js & mocha user-test.js"
->>>>>>> 7d1570e54103e954432ca5b4d4fa70ea0152a5d1
+    "test": "mocha test.js && mocha user-test.js && mocha test-dk.js",
+    
+
 
   },
   "keywords": [],
