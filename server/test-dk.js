@@ -47,6 +47,5 @@ describe('User Authentication', () => {
       // Viết test cho trường hợp đăng ký mới bằng Google với user chưa tồn tại
     });
 
-    // Thêm các bài kiểm tra khác ở đây
   });
 });
